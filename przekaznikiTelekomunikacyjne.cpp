@@ -169,24 +169,5 @@ int32_t main()
             if(a < s)
                 update(1, 0, base - 1, x, pz - 1, -(s - a), a, 0);
         }
-
-        /*for(int i = 1; i < base * 2; i++)
-        {
-            cout << tr[i] << " " << lazy[i].beg << " " << lazy[i].ent << " " << lazy2[i].beg << " " << lazy2[i].ent << "  ";
-        }
-        cout << "\n";*/
     }
 }
-
-/*
-4 9
-P 1 93 6
-P 3 26 8
-P 4 30 12
-P 2 31 1
-U 2
-P 2 7 3
-U 4
-P 4 86 41
-Z 1 3
-*/
